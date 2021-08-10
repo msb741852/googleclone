@@ -156,6 +156,10 @@ footer {
         width: 200px;
     }
 
+    .logo {
+        margin-top: 70px;
+    }
+
     .searchbar{
         width: 40%;
     }
@@ -198,16 +202,33 @@ footer {
         margin-right: 13px;
     }
 
-    .left ul li {
-        float: none;
+    .downfooter {
+        font-size: 10px;
+        line-height: unset;
+    }
+
+    .left {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .left ul {
         display: inline-block;
     }
 
-    .right ul {
+    .right {
         float: none;
+        text-align: center;
+        margin-top: 13px;
     }
-    .right ul li{
-        float: none;
+
+    .right ul {
+        float: none;    
+        margin-right: 0;
         display: inline-block;
+    }
+    
+    .right ul li {
+        float: left;
+        margin-right: 13px;
     }
 }
